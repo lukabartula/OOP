@@ -12,7 +12,8 @@ public class exercise8_1 {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         drawStarsPyramid(5);
     }
 }
