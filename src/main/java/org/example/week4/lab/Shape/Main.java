@@ -7,5 +7,7 @@ public class Main {
 
         /*Rectangle sh = new Rectangle("belo", FillType.NOT_FILLED, 4.5, 12.4);
         System.out.println(sh);*/
+
+
     }
 }
