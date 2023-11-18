@@ -6,8 +6,8 @@ import java.util.List;
 public class exercise2 {
 
     //reverse order of list
-    public static < T > List < T > reverseList(List< T > originalList) {
-        List < T > reversedList = new ArrayList<>();
+    public static <T> List <T> reverseList(List< T > originalList) {
+        List <T> reversedList = new ArrayList<>();
 
         for (int i = originalList.size() - 1; i >= 0; i--) {
             reversedList.add(originalList.get(i));

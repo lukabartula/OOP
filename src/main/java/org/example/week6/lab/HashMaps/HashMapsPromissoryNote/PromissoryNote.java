@@ -2,7 +2,7 @@ package org.example.week6.lab.HashMaps.HashMapsPromissoryNote;
 
 import java.util.HashMap;
 
-public class PromissoryNote {
+class PromissoryNote {
     private String toWhom;
     private double value;
 
@@ -21,10 +21,10 @@ public class PromissoryNote {
         // Impossible to get 0 since return type of this method() is double.
         // I tried casting, still doesn't work.
 
-        if (!debts.containsKey(whose)) {
+        if (!this.debts.containsKey(whose)) {
             return 0;
         } else {
-            return debts.get(whose);
+            return this.debts.get(whose);
         }
     }
 }

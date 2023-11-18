@@ -77,7 +77,7 @@ class Main {
         BirdWatchers birds = new BirdWatchers();
 
         while(true) {
-            System.out.print("? ");
+            System.out.print("?: ");
             String choice = reader.nextLine();
 
             switch (choice) {

@@ -60,8 +60,8 @@ class Main {
         //nightSky.printLine();
 
         NightSky nightSky1 = new NightSky(8, 4);
-        nightSky1.print();
-        System.out.println("Number of stars: " + nightSky1.starsInTheLastPrint());
+        nightSky.print();
+        System.out.println("Number of stars: " + nightSky.starsInTheLastPrint());
         System.out.println();
 
         nightSky1.print();

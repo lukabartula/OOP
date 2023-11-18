@@ -3,7 +3,7 @@ package org.example.week6.lab.exercise5;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BinarySearch {
+class BinarySearch {
     public static boolean search (int[] array, int x){
         int left = 0, right = array.length-1;
         while (left<=right){
@@ -15,7 +15,7 @@ public class BinarySearch {
                 left = mid + 1;
             }
             else {
-                right = mid + 1;
+                right = mid - 1;
             }
         }
         return false;
