@@ -1,4 +1,4 @@
-package org.example.midterm_preperation.generics;
+package org.example.midterm_preperation.interfaces;
 
 import java.util.ArrayList;
 import java.util.Collections;
