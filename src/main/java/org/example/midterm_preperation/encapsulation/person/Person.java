@@ -22,7 +22,7 @@ public class Person {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String n) {
@@ -52,6 +52,11 @@ public class Person {
     public void setGender(Gender g) {
         this.gender = g;
     }
+
+    @Override
+    public String toString(){
+        return this.name + " " + this.age + " " + "\n" + this.address + " " + this.gender;
+    }
 }
 class Student extends Person{
     private int studentID;
@@ -77,6 +82,7 @@ class Student extends Person{
     public void setGrade(int grade) {
         this.grade = grade;
     }
+
 }
 class Main {
     public static void main(String[] args) {

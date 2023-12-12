@@ -1,5 +1,17 @@
 package org.example.midterm_preperation.generics.Printer;
 
+class Wolf{
+    private String sound;
+
+    public Wolf(String sound) {
+        this.sound = sound;
+    }
+    @Override
+    public String toString(){
+        return this.sound;
+    }
+}
+
 class Printer <T, K extends Wolf>{
     private T thingToPrint;
     private K otherThing;
@@ -15,21 +27,10 @@ class Printer <T, K extends Wolf>{
     }
 }
 
-class Wolf{
-    private String sound;
-
-    public Wolf(String sound) {
-        this.sound = sound;
-    }
-    @Override
-    public String toString(){
-        return this.sound;
-    }
-}
-
 class Test {
     public static void main(String[] args) {
-        Printer p = new Printer("caocaocaoo",new Wolf("wuuu"));
+
+        Printer p = new Printer(22, new Wolf("wuuu"));
         System.out.println(p);
     }
 }
