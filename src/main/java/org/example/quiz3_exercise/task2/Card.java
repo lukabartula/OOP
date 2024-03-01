@@ -69,9 +69,16 @@ class DebitCard extends Card{
         this.deposit=deposit;
     }
 
+    @Override
     public int increase(){
         this.deposit++;
         return this.deposit;
+    }
+
+    @Override
+    public String toString(){
+        return "Card number: " + this.getCardNo() + ", balance: " + this.getBalance()
+                + ", deposit: " + this.deposit;
     }
 }
 

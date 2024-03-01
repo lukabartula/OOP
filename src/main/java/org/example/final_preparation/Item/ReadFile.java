@@ -1,4 +1,6 @@
-package org.example.final_preparation;
+package org.example.final_preparation.Item;
+
+import org.example.final_preparation.Item.Item;
 
 import java.io.*;
 import java.text.ParseException;

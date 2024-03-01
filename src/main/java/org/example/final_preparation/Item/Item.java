@@ -1,4 +1,4 @@
-package org.example.final_preparation;
+package org.example.final_preparation.Item;
 
 import java.util.Date;
 

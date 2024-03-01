@@ -32,7 +32,7 @@ class Box<T> {
 
 }
 
-class ColoredBox<T> extends Box{
+class ColoredBox<T> extends Box<T>{
     private String color;
 
 

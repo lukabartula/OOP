@@ -58,13 +58,14 @@ class Person {
 
 class Student extends Person {
 
-    private int credits = 0;
+    private int credits;
     private int student_id;
     private List<Integer> grades = new ArrayList<>();
 
     public Student(String name, String address, int age, String country, int student_id) {
         super(name, address, age, country);
         this.student_id = student_id;
+        this.credits = 0;
 
     }
 
